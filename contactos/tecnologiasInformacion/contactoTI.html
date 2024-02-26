@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <title>Directorio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand text-vino" href="../../index.html">
+                    <img src="../../img/icGenbio.png" alt="Logo" width="60" height="50"
+                        class="d-inline-block align-text-center" />
+                    Genbio
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../../index.html" onclick="gotoIndex()"
+                                style="color: #8b0000">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <h2 class="mt-5">Tecnologias de la información</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="../../img/icTecnologias.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Deniss Jimenez Valencia</h5>
+                        <p class="card-text">Ingeniero en soporte</p>
+                        <a href="deniss_jimenez.html" class="btn btn-primary" onclick="gotoContact()">Ir a tarjeta de
+                            contacto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="felipe.png" class="card-img-top" style="background:#eff1f3" />
+                    <div class="card-body">
+                        <h5 class="card-title">Felipe de Jesus Ramos Dorado</h5>
+                        <p class="card-text">Ingeniero en soporte</p>
+                        <a href="felipe_ramos.html" class="btn btn-primary" onclick="gotoContact()">Ir a tarjeta de
+                            contacto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="../../img/icTecnologias.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Maria Guadalupe Vazquez Villa</h5>
+                        <p class="card-text">Jefe de Tecnologías de la Informacón</p>
+                        <a href="guadalupe_vazquez.html" class="btn btn-primary" onclick="gotoContact()">Ir a tarjeta de
+                            contacto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="../../img/icTecnologias.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Jesus Ramiro Juárez Rodríguez</h5>
+                        <p class="card-text">Becario</p>
+                        <a href="ramiro.html" class="btn btn-primary" onclick="gotoContact()">Ir a tarjeta de
+                            contacto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer position-static text-center">
+        <div class="container">
+            <h6 class="m-0">Derechos reservados Genbio</h6>
+        </div>
+    </footer>
+    <script>
+        function gotoContact() {
+            window.location.href = "";
+        }
+        function gotoIndex() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+
+</html>
