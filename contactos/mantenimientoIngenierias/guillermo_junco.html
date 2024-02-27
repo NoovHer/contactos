@@ -191,7 +191,6 @@
                                         fill="var(--incoming-call-icon-color, currentColor)"></path>
                                 </svg>
                             </div>
-
                             <!-- Numero de telefono -->
                             <div class="mui-style-5414kd">
                                 <span class="mui-style-1jlcbwk">
@@ -316,7 +315,6 @@
                     var cargoEmpleado = "Jefe de Mantenimiento";
                     var departamentoEmpleado = "Mantenimiento e Ingeniería";
 
-
                     document.getElementById("nombreContacto").innerText = nombreContacto;
                     document.getElementById("numeroTelefono").innerText = numeroTelefono;
                     var enlaceTelefono = document.getElementById("enlaceTelefono");
@@ -345,12 +343,10 @@
                         compañia.setAttribute("data-visible", "false");
                         contacto.setAttribute("data-visible", "true");
                     });
-
                     companyBtn.addEventListener("click", function () {
                         compañia.setAttribute("data-visible", "true");
                         contacto.setAttribute("data-visible", "false");
                     });
-
                     document
                         .getElementById("downloadButton")
                         .addEventListener("click", function () {
